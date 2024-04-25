@@ -21,7 +21,9 @@
 
 #### 3.2 创建VPC
 
-##### 3.2.1 确保创建VPC之前，上海的私有网络为空![](C:\Users\t.wang.kangrui\Desktop\terraformstudy\report1\6.png)
+##### 3.2.1 确保创建VPC之前，上海的私有网络为空
+
+![6](https://github.com/King-WKR/Terraform/assets/71487704/3999d942-8d38-4f44-b04f-b89a261a0db0)
 
 ##### 3.2.2 terraform代码
 
@@ -44,7 +46,7 @@ provider "tencentcloud" {
 }
 ```
 
-##### 3.2.2 运行过程
+##### 3.2.3 运行过程
 
 1. terraform init初始化Terraform，下载所需要的模块，已经做了init加速处理，所以运行只需10秒左右![4](https://github.com/King-WKR/Terraform/assets/71487704/14b4647b-e39f-429b-8f8e-4cf569b9ee1f)
 
