@@ -14,8 +14,11 @@
 ### 三、任务过程
 
 #### 3.1 使用准备：环境变量鉴权
+![1](https://github.com/King-WKR/Terraform/assets/71487704/c1135c3e-a0e8-40d6-a0d8-6faeb948e169)
 
-1. 在腾讯云的访问管理中，创建新用户Sakura，并分配权限AdministratorAccess![](C:\Users\t.wang.kangrui\Desktop\terraformstudy\report1\1.png)
+
+
+1. 在腾讯云的访问管理中，创建新用户Sakura，并分配权限AdministratorAccess![](assets\1.png)
 2. 在用户列表中选中该用户，并且新建API密钥，保存CSV文件![](C:\Users\t.wang.kangrui\Desktop\terraformstudy\report1\2.png)
 3. 在系统变量中新建TENCENTCLOUD_SECRET_ID，TENCENTCLOUD_SECRET_KEY并输入csv文件中保存的ID和KEY![](C:\Users\t.wang.kangrui\Desktop\terraformstudy\report1\3.png)
 
