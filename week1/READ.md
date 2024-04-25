@@ -17,7 +17,6 @@
 
 1. 在腾讯云的访问管理中，创建新用户Sakura，并分配权限AdministratorAccess![1](https://github.com/King-WKR/Terraform/assets/71487704/c1135c3e-a0e8-40d6-a0d8-6faeb948e169)
 2. 在用户列表中选中该用户，并且新建API密钥，保存CSV文件![2](https://github.com/King-WKR/Terraform/assets/71487704/27c645c8-e728-4734-821d-d8c69012332e)
-
 3. 在系统变量中新建TENCENTCLOUD_SECRET_ID，TENCENTCLOUD_SECRET_KEY并输入csv文件中保存的ID和KEY![3](https://github.com/King-WKR/Terraform/assets/71487704/b5eb6a2d-10f1-440d-9b83-cc82cf3a95dc)
 
 #### 3.2 创建VPC
